@@ -1,0 +1,24 @@
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# models
+*.pt
+*.pth
+
+# data
+data/
+datasets/
+
+# outputs
+runs/
+outputs/
+logs/
+
+# media
+*.mp4
+*.avi
+*.mov
+*.png
+*.jpg
