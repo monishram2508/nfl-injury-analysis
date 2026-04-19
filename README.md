@@ -106,7 +106,7 @@ This schema is analysis-ready for time-series modeling, feature engineering, and
 
 ### Setup
 ```bash
-cd /home/runner/work/nfl-injury-analysis/nfl-injury-analysis
+cd nfl-injury-analysis
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -117,12 +117,12 @@ pip install -r requirements.txt
 ## How to run
 ### Step 1 — Extract frames
 ```bash
-python /home/runner/work/nfl-injury-analysis/nfl-injury-analysis/src/retrieval.py
+python src/retrieval.py
 ```
 
 ### Step 2 — Run tracking + motion extraction
 ```bash
-python /home/runner/work/nfl-injury-analysis/nfl-injury-analysis/src/track_pos.py
+python src/track_pos.py
 ```
 - Click the injured player in the selection window on first frame.
 - Press `R` anytime to re-lock target.
@@ -130,7 +130,7 @@ python /home/runner/work/nfl-injury-analysis/nfl-injury-analysis/src/track_pos.p
 
 ### Step 3 — Plot results
 ```bash
-python /home/runner/work/nfl-injury-analysis/nfl-injury-analysis/src/plot.py
+python src/plot.py
 ```
 
 ---
